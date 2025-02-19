@@ -1,46 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
   font-size: 62.5%;
 }
 
-body{
-    font-size: var(--fontPrimary);
+body {
+  font-size: var(--fontPrimary);
 }
 
 
 /*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Our Header Section ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
-.header_section{
+header {
+  background-color: var(--secondaryColor2);
+}
+
+.header_section {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var( --secondaryColor2);
+
+  /* position: relative; */
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background: url(/public/logo_bg.png) no-repeat;
+  background-size: contain;
+  background-position: left top;
 }
 
-.header_section .logo{
- 
-  & img{
+.header_section .logo {
+
+
+  & img {
     width: 10rem;
     height: 10rem;
   }
 }
 
-.header_section .navbar_section{
+.header_section .navbar_section {
   display: flex;
 }
 
-.header_section .navbar_section ul{
+.header_section .navbar_section ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
   gap: 2rem;
 
-  & .nav_link{
+  & .nav_link {
     text-decoration: none;
     font-weight: 600;
     font-size: var(--fontSize);
@@ -49,7 +62,7 @@ body{
 
 }
 
-.header_section .search_item{
+.header_section .search_item {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -58,19 +71,19 @@ body{
   height: 3rem;
   border-radius: 2.5rem;
   background-color: #fff;
-  
-  & img{
+
+  & img {
     width: 1.5rem;
     height: 1.5rem;
-      filter: invert(40%) sepia(9%) saturate(44%) hue-rotate(196deg); 
-    
-    
+    filter: invert(40%) sepia(9%) saturate(44%) hue-rotate(196deg);
+
+
   }
 
 }
 
 
-.header_section .search_item input{
+.header_section .search_item input {
   /* width: 20rem;
   height: 3rem; */
   /* padding-left: .8rem; */
@@ -79,8 +92,8 @@ body{
   outline: none;
   caret-color: var(--neutralColor40);
 
-  & ::placeholder{
+  & ::placeholder {
     color: var(--neutralColor40);
-   
+
   }
 }
