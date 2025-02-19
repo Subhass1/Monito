@@ -1,0 +1,43 @@
+/*_____________________ Font Family Adding_____________________ */
+@font-face {
+    font-family: 'myPrimaryFont';
+    src: url('/public/fonts/Gilroy-Bold.woff') format('woff');
+    /* --------Bold--------- */
+}
+
+@font-face {
+    font-family: 'myPrimaryFont';
+    src: url('/public/fonts/Gilroy-Heavy.woff');
+    /* --------Heavy--------- */
+}
+
+@font-face {
+    font-family: 'myPrimaryFont';
+    src: url('/public/fonts/Gilroy-Light.woff');
+    /* --------Light--------- */
+}
+
+@font-face {
+    font-family: 'myPrimaryFont';
+    src: url('/public/fonts/Gilroy-Medium.woff');
+    /* --------Medium--------- */
+}
+
+@font-face {
+    font-family: 'myPrimaryFont';
+    src: url('/public/fonts/Gilroy-Regular.woff');
+    /* --------Regular--------- */
+}
+
+:root{
+    /* ------ Adding font on Root --------- */
+    --fontPrimary: 'myPrimaryFont';
+
+    /* ------ CSS Adding on Root --------- */
+    --primaryColor: rgb(0, 52, 89);
+    --secondaryColor: rgb(247, 219, 167);
+
+    --stateColor: 
+
+
+}
