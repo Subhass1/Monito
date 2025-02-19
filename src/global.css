@@ -35,9 +35,33 @@
 
     /* ------ CSS Adding on Root --------- */
     --primaryColor: rgb(0, 52, 89);
-    --secondaryColor: rgb(247, 219, 167);
+    --secondaryColor: #f7dba7;
+    --secondaryColor2: #FCEED5;
 
-    --stateColor: 
 
+    --stateColorPink: #ff564f;
+    --sateColorGreen: #34c759;
+    --sateColorOrange: #ff912c;
+    --stateColorBlue: #00a7e7;
 
+    --neutralColor100: #00171f;
+    --neutralColor80: #242b33;
+    --neutralColor60: hsl(196, 9%, 44%);
+    --neutralColor40: #99a2a5;
+    --neutralColor20: #ccd1d2;
+    --neutralColor10: #ebeeef;
+
+    /* ------ Font size on Root --------- */
+    --fontSize: 1.5rem;
+    --fontSize2: 1.1rem;
+
+}
+
+.btn{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--primaryColor);
+    border-radius: 2rem;
+    border: none;
+    font-size: var(--fontSize);
+    color: #fff;
 }

@@ -11,3 +11,76 @@ html,body{
 body{
     font-size: var(--fontPrimary);
 }
+
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Our Header Section ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
+.header_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var( --secondaryColor2);
+}
+
+.header_section .logo{
+ 
+  & img{
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.header_section .navbar_section{
+  display: flex;
+}
+
+.header_section .navbar_section ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2rem;
+
+  & .nav_link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: var(--fontSize);
+    color: var(--primaryColor);
+  }
+
+}
+
+.header_section .search_item{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  background-color: #fff;
+  
+  & img{
+    width: 1.5rem;
+    height: 1.5rem;
+      filter: invert(40%) sepia(9%) saturate(44%) hue-rotate(196deg); 
+    
+    
+  }
+
+}
+
+
+.header_section .search_item input{
+  /* width: 20rem;
+  height: 3rem; */
+  /* padding-left: .8rem; */
+  font-size: var(--fontSize2);
+  border: none;
+  outline: none;
+  caret-color: var(--neutralColor40);
+
+  & ::placeholder{
+    color: var(--neutralColor40);
+   
+  }
+}
