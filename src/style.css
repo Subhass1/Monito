@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  font-size: var(--fontPrimary);
+  font-family: var(--fontPrimary);
 }
 
 
@@ -97,3 +97,70 @@ header {
 
   }
 }
+
+
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Our Home Section ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+  background-color: var(--secondaryColor2);
+}
+
+.hero-section .left-home-section h1 {
+  background: url(/public/home_text_bg.png) no-repeat;
+
+  background-size: 80px;
+  padding-left: 20px;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+
+  font-size: 6rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: var(--primaryColor);
+}
+
+.hero-section .left-home-section h3 {
+  font-size: 4.5rem;
+  text-transform: capitalize;
+  color: var(--primaryColor);
+  font-weight: 800;
+}
+
+.hero-section .left-home-section p {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  line-height: 1.5;
+  word-spacing: .2rem;
+  letter-spacing: .1rem;
+  color: var(--neutralColor80);
+}
+
+.hero-section .left-home-section .hero-btn {
+  padding-top: 4rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-section .left-home-section .hero-btn .left-hero-btn {
+  background: transparent;
+  border: 1px solid rgb(0, 52, 89);
+  color: var(--primaryColor);
+  background: url(/public/svg/Play_Circle.png) no-repeat;
+  background-size: 25px;
+  background-position: right 10px center;
+  padding-right: 45px;
+
+
+}
+
+
+ .right-home-section .right-bg-image{
+  background: url();
+ }
