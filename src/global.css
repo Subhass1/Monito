@@ -52,12 +52,13 @@
     --neutralColor40: #99a2a5;
     --neutralColor20: #ccd1d2;
     --neutralColor10: #ebeeef;
-    --neutralColor10: #fff;
+    --neutralColor0: #fff;
 
     /* ------ Font size on Root --------- */
     --fontSize: 1.5rem;
     --fontSize2: 1.1rem;
     --fontSize3: 1.4rem;
+    --fontSize4: 1.6rem;
 
 }
 
