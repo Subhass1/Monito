@@ -1,5 +1,5 @@
-
 @import url(/src/global.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +14,7 @@ body {
 body {
   width: 100%;
   font-family: var(--fontPrimary);
+  background-color: var(--secondaryColor2);
 }
 
 
@@ -168,20 +169,21 @@ header {
   margin-top: 10rem;
 }
 
-.right-bg-image{
+.right-bg-image {
   background: url(/public/Rectangle\ 6.png), url(/public/Rectangle\ 7.png);
   background-repeat: no-repeat, no-repeat;
   background-position: left top;
-  
+
 }
 
 .home-bg-hero {
   background: url(/public/Rectangle\ 1.png), url(/public/Rectangle\ 2.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: left center, right center; 
+  background-position: left center, right center;
   background-size: contain;
+  
 
-  & img{
+  & img {
     width: 80rem;
     height: auto;
   }
@@ -189,64 +191,75 @@ header {
 }
 
 /*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ choosing pets animals ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
-.choose-pets{
+.choose-pets {
   padding-left: 10rem;
   padding-right: 10rem;
+  background: url(/public/Rectangle\ 8.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+
 }
 
-.choose-pets .info-heading{
+.choose-pets .info-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.choose-pets .info-heading .sub-heading h4{
+.choose-pets .info-heading .sub-heading h4 {
   font-size: 2.5rem;
 }
 
-.choose-pets .info-heading .sub-heading h4{
+.choose-pets .info-heading .sub-heading h4 {
   font-size: 2.5rem;
 }
 
-.choose-pets .puppy-container{
+.choose-pets .puppy-container {
   padding-top: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 3rem;
-  
+
 }
 
-.choose-pets .pupy-container .puppy-card{
-  width: 40rem;
-  height: 36rem;
-  border-radius: 10px;
+.choose-pets .puppy-container .puppy-card {
+  width: 28rem;
+  height: 40rem;
+  border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  width: 250px;
   text-align: center;
+  background-color: var(--neutralColor0);
+
+  & img{
+    margin-top: 2rem;
+    border-radius: 1rem;
+  }
 
 
- & img {
-  width: 30rem;
-  height: 25rem;
-  object-fit: cover;
 }
+
+.puppy-container .puppy-card .card-content {
+  padding: 1.5rem;
+  text-align: left;
 }
-.card-content {
-  padding: 15px;
-}
-.card h3 {
+
+.card-content h5 {
   margin: 10px 0;
-  font-size: 18px;
+  font-size: var(--fontSize);
 }
-.card p {
+.card-content .card-content-gender {
+  display: flex;
+  gap: 2rem;
+}
+.card-content .card-content-gender h6 {
   margin: 5px 0;
-  color: #555;
+  color: var(--neutralColor60);
+  font-size: var(--fontSize3);
 }
+
 .price {
+  margin: 4px 0;
   font-weight: bold;
-  color: #e67e22;
-  font-size: 16px;
+  font-size: var(--fontSize3);
 }
