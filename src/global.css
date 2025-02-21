@@ -67,3 +67,10 @@
     font-size: var(--fontSize);
     color: #fff;
 }
+
+h3 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: var(--primaryColor);
+    font-weight: 800;
+  }
