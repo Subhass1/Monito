@@ -802,22 +802,23 @@ hr {
   }
 }
 
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Product Detail Page ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
 .product-detail-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 6rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
 
-  width: 100%;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: var(--neutralColor0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 
 .product-detail-container .left-product-img {
   width: 50.5rem;
-  background-color: var(--neutralColor0);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  border-radius: 1rem;
+  
   padding-top: .8rem;
 
   & .front-img {
@@ -889,7 +890,123 @@ hr {
 
 }
 
+.right-product-detail {
+  margin-right: 4rem;
+}
 
+.right-product-detail .breadcrumb{
+  
+ & p{
+    font-size: var(--fontSize3);
+  color: var(--neutralColor40);
+  text-align: start;
+  }
+}
+
+.product-detial-content span{
+  font-size: var(--fontSize);
+  color: var(--neutralColor40);
+}
+
+.product-detial-content h2{
+  font-size: var(--fontSize5);
+  font-weight: 900;
+  color: var(--primaryColor);
+  padding-top: 2rem;
+
+}
+
+.product-detial-content h3{
+  font-size: var(--fontSize5);
+  font-weight: 900;
+  color: var(--primaryColor);
+  padding-top: 1.5rem;
+
+}
+
+.product-detail-btn{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+
+  & a{
+    text-decoration: none;
+  }
+}
+
+.product-detail-inform .info-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+
+  & p{
+    font-size: var(--fontSize4);
+    color: var(--neutralColor40);
+  }
+
+  & span{
+    font-size: var(--fontSize4);
+    color: var(--neutralColor40);
+  }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Product Detail Page (Customer Section) ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
+.pet-customer{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 6rem;
+
+  & h2{
+    color: var(--neutralColor100);
+    font-size: var(--fontSize5);
+    font-weight: 900;
+  }
+}
+
+.customer-customer-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  
+  & img{
+    border-radius: 1rem;
+  }
+}
+
+.rectangele-content{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 4rem;
+
+  & .rectangle-1{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--neutralColor40);
+    border-radius: 50%;
+  }
+  
+}
+
+
+.product-detail-info{
+  margin: 10rem 10rem;
+}
+
+.product-detail-info  .sub-heading{
+  padding-bottom: 2rem;
+  h4{
+    font-size: var(--fontSize4);
+  }
+
+  & h3{
+    font-size: var(--fontSize5);
+    font-weight: 900;
+  }
+}
 /*______________________________________________________
     Signup Page 
    _______________________________________________________-*/

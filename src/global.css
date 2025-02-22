@@ -73,6 +73,16 @@
     cursor: pointer;
 }
 
+.btn2{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid var(--primaryColor);
+    font-size: var(--fontSize);
+    color: var(--neutralColor100);
+    cursor: pointer;
+}
+
 h3 {
     font-size: 3.5rem;
     text-transform: capitalize;
