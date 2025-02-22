@@ -70,6 +70,7 @@
     border: none;
     font-size: var(--fontSize);
     color: #fff;
+    cursor: pointer;
 }
 
 h3 {
