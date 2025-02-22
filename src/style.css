@@ -14,7 +14,7 @@ body {
 body {
   width: 100%;
   font-family: var(--fontPrimary);
-  background-color: var(--secondaryColor2);
+  /* background-color: var(--secondaryColor2); */
 }
 
 
@@ -223,7 +223,7 @@ header {
 
 }
 
-.choose-pets .puppy-container .puppy-card {
+ .puppy-card {
   width: 28rem;
   height: 40rem;
   border-radius: 1rem;
@@ -271,12 +271,14 @@ header {
   background-color: #fff;
   padding-top: 6rem;
   padding-bottom: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .pet-product-card .product-card{
-  width: 80%;
+  width: 100%;
   background-color: var(--primaryColor);
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
   display: flex;
   align-items: center;
@@ -522,6 +524,7 @@ width: 60%;
   border-radius: 1rem;
   padding-left: 10rem;
   padding-right: 10rem;
+  padding-top: 2rem;
 }
 
 .info-newsletter{
@@ -536,6 +539,7 @@ width: 60%;
 
   padding-left: 2rem;
   padding-right: 2rem;
+  
 }
 
 .left-newsletter{
@@ -637,6 +641,146 @@ width: 60%;
     color: var(--neutralColor60);
     text-decoration: none;
     font-size: var(--fontSize);
+  }
+}
+
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Categories Pages  ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ pet_container ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
+
+
+
+.breadcrumb {
+  margin: 20px;
+  font-size: 14px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #007bff;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+.pets-filter-container {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  margin: 20px;
+}
+hr{
+  background-color: var(--neutralColor40);
+}
+.filters {
+  width: 20%;
+  /* background: white; */
+  padding: 20px;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+  border-radius: 10px;
+}
+.filters h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.filter-section {
+  margin-bottom: 15px;
+  padding-top: 2rem;
+}
+.filter-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.color-box {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.price-select {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.price-select select {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.products {
+  width: 75%;
+  margin-left: 5%;
+}
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sort-by {
+  font-size: 14px;
+}
+.sort-by select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.product-card {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+} */
+
+
+.choose-pets-animal{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+
+
+}
+
+.pagination{
+  padding-top: 4rem;
+  
+
+  & ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  & li{
+    font-size: var(--fontSize5);
+    font-weight: 900;
+    padding: 0.5rem 1rem;
+    color: var(--primaryColor);
+    border-radius: .5rem;
+  }
+
+  & li.active{
+    background-color: var(--primaryColor);
+    color: var(--neutralColor0);
   }
 }
 
