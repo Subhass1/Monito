@@ -1,0 +1,140 @@
+@import url('/src/style.css');
+@import url('/src/global.css');
+  body{
+    background-color: var(--secondaryColor2);
+  }  
+
+    .contact-section {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .contact-section h1 {
+      font-size: var(--fontSize6);
+      color: var(--primaryColor);
+    }
+
+    .contact-section p {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      color: var(--neutralColor60);
+      font-size: var(--fontSize3);
+      padding-top: 2rem;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .contact-info {
+      text-align: left;
+      max-width: 300px;
+    }
+
+    .contact-info h2 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .contact-info p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .info-item i {
+      background: orange;
+      color: #fff;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+        background-color: var(--primaryColor);
+      color: #fff;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+
+    .contact-form {
+      background: var(--secondaryColor);
+      padding: 30px;
+      border-radius: 1rem;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      width: 45rem;
+      text-align: center;
+    }
+
+    .contact-form h2 {
+      font-size: var(--fontSize5);
+      margin-bottom: 20px;
+      color: var(--primaryColor);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    .contact-form textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .contact-form button {
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .map {
+      margin-top: 4rem;
+      width: 100%;
+      height: 350px;
+     
+    }
+
+    iframe {
+      width: 85%;
+      height: 100%;
+      border-radius: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
