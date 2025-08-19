@@ -2,24 +2,94 @@
 @import url('./style.css');
 
 .about-section{
-    width: 100%;
+    background-color: var( --secondaryColor2); 
+}
+
+ /* ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Our  About section ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉   */
+.info-about-section {
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8rem 1rem 8rem;
+    padding: 5rem 8rem 1rem 8rem;
+    
 }
 
-.right-about-content{
+.home-bg-hero {
+  background: url(/public/Rectangle\ 1.png), url(/public/Rectangle\ 2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left center, right center;
+  background-size: contain;
+
+
+  & img {
+    width: 80rem;
+    height: auto;
+  }
+
+}
+
+
+.right-about-content {
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 
-    & h3{
+    & h3 {
         display: flex;
         align-items: left;
         justify-content: left;
         text-align: left;
+        font-size: 3rem;
+        padding-top: 2rem;
+
     }
+
+    & p {
+        font-size: var(--fontSize3);
+        color: var(--neutralColor60);
+        padding-top: .6rem;
+    }
+}
+
+.right-about-content .about-content-1 {
+    padding-top: 2rem;
+
+    & h4 {
+        font-size: 2.5rem;
+        color: var(--primaryColor);
+        font-weight: 800;
+    }
+
+}
+.right-about-content .about-content-1 .about-list{
+padding-top: 1rem;
+
+}
+.right-about-content .about-content-1 .about-list li {
+   
+    font-size: var(--fontSize3);
+    color: var(--neutralColor60);
+    font-weight: 500;
+    padding-top: .9rem;
+    
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Community Joining ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
+.about-join-community{
+    padding-top: 15rem;
+  text-align: center;
+
+  & p{
+    font-size: var(--fontSize3);
+    padding-top: 1.5rem;
+    color: var(--neutralColor60);
+  }
+
+}
+
+.about-community-btn{
+    padding-top: 3.5rem;
 }

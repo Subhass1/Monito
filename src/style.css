@@ -191,6 +191,8 @@ header {
 
 }
 
+
+
 /*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ choosing pets animals ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
 .choose-pets {
   padding-left: 10rem;
@@ -271,11 +273,12 @@ header {
 /*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ Our Pets product card ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉*/
 .pet-product-card {
   width: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding-top: 6rem;
   padding-bottom: 2rem;
   padding-left: 10rem;
   padding-right: 10rem;
+  
 }
 
 .pet-product-card .product-card {
@@ -287,6 +290,8 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 1.5rem;
+
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 
 
 }
